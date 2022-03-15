@@ -5,14 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee00aaea-5347-4353-a63a-9f3388be6f1f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/observable/ObservableFrom.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/observable/ObservableJust.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/flowable/BackpressureEx1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/observable/AsyncSubject.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/observable/BehaviorSubject.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/observable/ConnectableObservable.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/observable/Disposable.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/observable/ReplaySubject.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/observable/Subject.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/META-INF/test.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/META-INF/test.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
@@ -87,6 +91,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -119,37 +131,37 @@
       <recent name="C:\Users\82105\git\RXkotlin-study\src\main\kotlin" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.ObservableJustKt">
-    <configuration name="Ex1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coroutine.Ex1Kt" />
+  <component name="RunManager" selected="Kotlin.BackpressureEx1Kt">
+    <configuration name="BackpressureEx1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="flowable.BackpressureEx1Kt" />
       <module name="test.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObservableCreateKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="observable.ObservableCreateKt" />
+    <configuration name="BehaviorSubjectKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="observable.BehaviorSubjectKt" />
       <module name="test.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObservableFromKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="observable.ObservableFromKt" />
+    <configuration name="DisposableKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="observable.DisposableKt" />
       <module name="test.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObservableJustKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="observable.ObservableJustKt" />
+    <configuration name="ReplaySubjectKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="observable.ReplaySubjectKt" />
       <module name="test.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObservableKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="observable.ObservableKt" />
+    <configuration name="SubjectKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="observable.SubjectKt" />
       <module name="test.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -157,9 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.ObservableJustKt" />
-        <item itemvalue="Kotlin.ObservableFromKt" />
-        <item itemvalue="Kotlin.Ex1Kt" />
+        <item itemvalue="Kotlin.BackpressureEx1Kt" />
+        <item itemvalue="Kotlin.BehaviorSubjectKt" />
+        <item itemvalue="Kotlin.ReplaySubjectKt" />
+        <item itemvalue="Kotlin.SubjectKt" />
+        <item itemvalue="Kotlin.DisposableKt" />
       </list>
     </recent_temporary>
   </component>
@@ -175,6 +189,9 @@
       <workItem from="1646649843312" duration="4733000" />
       <workItem from="1646708843844" duration="3149000" />
       <workItem from="1647166058493" duration="2229000" />
+      <workItem from="1647228017142" duration="10000" />
+      <workItem from="1647243571954" duration="5739000" />
+      <workItem from="1647343153726" duration="3288000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1646651451699</created>
