@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee00aaea-5347-4353-a63a-9f3388be6f1f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/flowable/BackpressureEx1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/observable/AsyncSubject.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/observable/BehaviorSubject.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/observable/ConnectableObservable.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/observable/Disposable.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/observable/ReplaySubject.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/observable/Subject.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/flowable/FlowableEx1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/flowable/FlowableObservable.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -70,6 +66,7 @@
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/flowable/BackpressureEx1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/flowable/Backpressure.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +111,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -131,9 +129,9 @@
       <recent name="C:\Users\82105\git\RXkotlin-study\src\main\kotlin" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.BackpressureEx1Kt">
-    <configuration name="BackpressureEx1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="flowable.BackpressureEx1Kt" />
+  <component name="RunManager" selected="Kotlin.FlowableObservableKt">
+    <configuration name="BackpressureKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="flowable.BackpressureKt" />
       <module name="test.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,8 +144,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DisposableKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="observable.DisposableKt" />
+    <configuration name="FlowableObservableKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="flowable.FlowableObservableKt" />
       <module name="test.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -169,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.BackpressureEx1Kt" />
+        <item itemvalue="Kotlin.FlowableObservableKt" />
+        <item itemvalue="Kotlin.BackpressureKt" />
         <item itemvalue="Kotlin.BehaviorSubjectKt" />
         <item itemvalue="Kotlin.ReplaySubjectKt" />
         <item itemvalue="Kotlin.SubjectKt" />
-        <item itemvalue="Kotlin.DisposableKt" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +189,10 @@
       <workItem from="1647166058493" duration="2229000" />
       <workItem from="1647228017142" duration="10000" />
       <workItem from="1647243571954" duration="5739000" />
-      <workItem from="1647343153726" duration="3288000" />
+      <workItem from="1647343153726" duration="3426000" />
+      <workItem from="1647526506052" duration="60000" />
+      <workItem from="1647694162394" duration="2436000" />
+      <workItem from="1647768170889" duration="2226000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1646651451699</created>
